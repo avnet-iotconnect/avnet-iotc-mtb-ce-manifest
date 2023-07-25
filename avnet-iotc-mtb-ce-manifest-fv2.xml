@@ -1,9 +1,9 @@
 <apps version="2.0">
   <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto,pasco2,dps3xx" req_capabilities_v1="cysbsyskit-dev-01">
     <name>Avnet IoTConnect Sensor Example</name>
-    <id>mtb-avnet-sensor-example</id>
+    <id>avnet-iotc-mtb-sensor-example</id>
     <category>Sensing</category>
-	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example</uri>
+	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example</uri>
     <description><![CDATA[Code example for boards with PASCO2 and DPSxxx sensors and Optiga Secure Element to connect to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
@@ -18,9 +18,9 @@
   </app>
     <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto" req_capabilities_v1="cysbsyskit-dev-01">
     <name>Avnet IoTConnect Optiga Example</name>
-    <id>mtb-avnet-optiga-example</id>
+    <id>avnet-iotc-mtb-optiga-example</id>
     <category>Peripherals</category>
-	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example</uri>
+	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example</uri>
     <description><![CDATA[Code example for boards with Optiga Secure Element to connect to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
@@ -35,9 +35,9 @@
   </app>
   <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
     <name>Avnet IoTConnect Basic Example</name>
-    <id>mtb-avnet-basic-example</id>
+    <id>avnet-iotc-mtb-basic-example</id>
     <category>Wi-Fi</category>
-	<uri>https://github.com/avnet-iotconnect/iotc-modustoolbox-example</uri>
+	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example</uri>
     <description><![CDATA[Basic example for connecting to Avnet IoTConnect Platform.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-sdk/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
