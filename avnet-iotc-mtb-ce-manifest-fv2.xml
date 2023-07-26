@@ -1,11 +1,11 @@
 <apps version="2.0">
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto,pasco2,dps3xx" req_capabilities_v1="cysbsyskit-dev-01">
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto,pasco2,dps3xx">
     <name>Avnet IoTConnect Sensor Example</name>
     <id>avnet-iotc-mtb-sensor-example</id>
     <category>Sensing</category>
 	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example</uri>
     <description><![CDATA[Code example for boards with PASCO2 and DPSxxx sensors and Optiga Secure Element to connect to Avnet IoTConnect Platform.
-    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>optiga_trust_m wifi</req_capabilities>
@@ -16,13 +16,13 @@
       </version>
     </versions>
   </app>
-    <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto" req_capabilities_v1="cysbsyskit-dev-01">
+    <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub,security,crypto">
     <name>Avnet IoTConnect Optiga Example</name>
     <id>avnet-iotc-mtb-optiga-example</id>
     <category>Peripherals</category>
 	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example</uri>
     <description><![CDATA[Code example for boards with Optiga Secure Element to connect to Avnet IoTConnect Platform.
-    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-xensiv-example/blob/main/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-xensiv-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>optiga_trust_m wifi</req_capabilities>    
@@ -39,7 +39,7 @@
     <category>Wi-Fi</category>
 	<uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example</uri>
     <description><![CDATA[Basic example for connecting to Avnet IoTConnect Platform.
-    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/iotc-modustoolbox-sdk/blob/main/README.md">README on GitHub</a>.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-basic-example/blob/main/README.md">README on GitHub</a>.
     <br><br><b>License Disclaimer:</b><br><br>
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6</req_capabilities>
