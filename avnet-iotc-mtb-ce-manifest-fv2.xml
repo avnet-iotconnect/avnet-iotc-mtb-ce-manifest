@@ -33,7 +33,7 @@
       </version>
     </versions>
   </app>
-  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w]">
+  <app keywords="mtb-flow,psoc6,mqtt,client,wifi,iotconnect,iothub" req_capabilities_v2="psoc6 [cy8ckit_062_wifi_bt, cy8ckit_062s2_43012, cy8cproto_062_4343w, cy8cproto_062s3_4343w, cy8ckit_062s2_ai]">
     <name>Avnet IoTConnect Basic Example</name>
     <id>avnet-iotc-mtb-basic-example</id>
     <category>Wi-Fi</category>
@@ -44,9 +44,43 @@
     This code example makes use of the lwIP open-source TCP/IP stack. Creating a project from this template will cause lwIP to be downloaded on your computer. It is your responsibility to understand and accept the lwIP license.<br><br>Creating a project from this template will cause Mbed TLS to be downloaded on your computer. It is your responsibility to understand and accept the Mbed TLS license and regional use restrictions (including abiding by all applicable export control laws).]]></description>
     <req_capabilities>psoc6</req_capabilities>
     <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version="bsp_gen4">
+        <num>6.0.0 release</num>
+        <commit>release-v6.0.0</commit>
+      </version>
       <version flow_version="2.0" tools_min_version="3.0.0" req_capabilities_per_version="bsp_gen4">
-        <num>release-v5.0.0</num>
+        <num>5.0.0 release</num>
         <commit>release-v5.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,imagimob,bmx160,bmi160,bmi270,motion sensor,mtb-flow" req_capabilities_v2="psoc6 spi i2c">
+    <name>Avnet IoTConnect AI IMU Example</name>
+    <id>avnet-iotc-mtb-ai-imu-example</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example</uri>
+    <description><![CDATA[This code example demonstrates how to use Avnet IoTConnect to send data to the cloud from an Imagimob generated machine learning model. It comes pre-configured with a model generated from the Human Activity Detection starter project in Imagimob Studio. The code example collects accelerometer data from an IMU which is then sent to the machine learning model to detect specific motions (sitting, standing, walking, running, or jumping). It uses the model.c/h files generated from within Imagimob Studio directly. New models based on the Human Activity Detection project can be dropped into the project as-is.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imu-example/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi i2c</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="psoc6,machine-learning,ml,bmx160,bmi160,bmi270,pdm,imagimob,mtb-flow" req_capabilities_v2="psoc6 spi i2c pdm">
+    <name>Avnet IoTConnect AI Baby Monitor Example</name>
+    <id>avnet-iotc-mtb-ai-baby-monitor</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor</uri>
+    <description><![CDATA[This code example demonstrates how to use Avnet IoTConnect to send data to the cloud from an Imagimob generated machine learning model with the ModusToolbox&#8482; Machine Learning (MTBML) flow. The code example includes two models that (IMU and PDM) are generated from Imagimob Studio's starter projects. The sample application supports only the PDM AI model, but it can be integrated with the IMU model.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-baby-monitor/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>psoc6 spi i2c pdm</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
       </version>
     </versions>
   </app>
