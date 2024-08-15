@@ -64,8 +64,8 @@
     <req_capabilities>psoc6 spi i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+        <num>3.0.0 release</num>
+        <commit>release-v3.0.0</commit>
       </version>
     </versions>
   </app>
