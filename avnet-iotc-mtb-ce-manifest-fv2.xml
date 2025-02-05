@@ -43,7 +43,7 @@
     <req_capabilities>psoc6 spi i2c</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
-        <num>3.0.1 release</num>
+        <num>3.0.2 release</num>
         <commit>release-v3.0.2</commit>
       </version>
     </versions>
@@ -58,7 +58,7 @@
     <req_capabilities>psoc6 spi i2c pdm</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai]">
-        <num>3.1.0 release</num>
+        <num>3.2.0 release</num>
         <commit>release-v3.2.0</commit>
       </version>
     </versions>
