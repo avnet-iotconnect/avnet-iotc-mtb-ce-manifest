@@ -63,4 +63,19 @@
       </version>
     </versions>
   </app>
+  <app keywords="mtb-flow,psoc6,machine-learning,ml,pdm,radar,imagimob" req_capabilities_v2="uart spi i2c pdm psoc6">
+    <name>Avnet IoTConnect Imagimob Ready Ready Model</name>
+    <id>avnet-iotc-mtb-ai-imagimob-rm</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm</uri>
+    <description><![CDATA[This code example demonstrates how to use Avnet IoTConnect to send Machine Learning data to the cloud using an Imagimob Studio Ready Model library on ModusToolbox&#8482; Machine Learning (MTBML) flow.  The code example includes six different models where five model detect differet sounds such as baby-cry detection, cough detection, alarm detection, siren detection, and snoring detection which uses data from the pulse-density modulation (PDM) to pulse-code modulation (PCM) which is sent to the model for detection. The sixth model detects hand gestures which uses data from the radar sensor.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm/blob/main/README.md">README on GitHub</a>.]]></description>
+    <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
