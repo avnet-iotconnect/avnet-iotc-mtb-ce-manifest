@@ -72,9 +72,9 @@
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-ai-imagimob-rm/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm psoc6</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.1.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+      <version flow_version="2.0" tools_min_version="3.3.0" req_capabilities_per_version_v2="[bsp_gen4] [cy8ckit_062s2_ai,cy8ckit_062s2_43012]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
