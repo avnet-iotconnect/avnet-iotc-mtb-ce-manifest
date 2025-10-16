@@ -83,7 +83,7 @@
     <id>avnet-iotc-mtb-psoc-edge-rm</id>
     <category>Machine Learning</category>
     <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-rm</uri>
-    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU: DEEPCRAFT&#8482; Ready Model Deployment with and Avnet /IOTCONNECT ModusToolbox SDK.
+    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU: DEEPCRAFT&#8482; Ready Model Deployment with Avnet /IOTCONNECT ModusToolbox SDK.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/aavnet-iotc-mtb-psoc-edge-rm/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm pse8xxgp</req_capabilities>
     <versions>
@@ -98,8 +98,22 @@
     <id>avnet-iotc-mtb-psoc-edge-voice-assistant</id>
     <category>Audio</category>
     <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-voice-assistant</uri>
-    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Voice Assistant with and Avnet /IOTCONNECT ModusToolbox SDK.
+    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Voice Assistant with Avnet /IOTCONNECT ModusToolbox SDK.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-voice-assistant/blob/master/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
+  <app keywords="voice, deepcraft, deployment, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>Avnet PSOC Edge DEEPCRAFT Baby Monitor</name>
+    <id>avnet-iotc-mtb-psoc-edge-baby-monitor</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-baby-monitor</uri>
+    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Deploy Audio project with Avnet /IOTCONNECT ModusToolbox SDK.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-baby-monitor/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
         <num>1.1.0 release</num>
