@@ -121,4 +121,18 @@
       </version>
     </versions>
   </app>
+  <app keywords="motion, deepcraft, deployment, mtb-flow" req_capabilities_v2="pse8xxgp">
+    <name>Avnet PSOC Edge DEEPCRAFT Motion</name>
+    <id>avnet-iotc-mtb-psoc-edge-motion</id>
+    <category>Machine Learning</category>
+    <uri>https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-motion</uri>
+    <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Deploy Motion project with Avnet /IOTCONNECT ModusToolbox SDK.
+    <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-motion/blob/main/README.md">README on GitHub</a>.]]></description>
+    <versions>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
+      </version>
+    </versions>
+  </app>
 </apps>
