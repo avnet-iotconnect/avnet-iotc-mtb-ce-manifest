@@ -144,8 +144,8 @@
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-psa-tfm/blob/main/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4]">
-        <num>1.0.0 release</num>
-        <commit>release-v1.0.0</commit>
+        <num>1.1.0 release</num>
+        <commit>release-v1.1.0</commit>
       </version>
     </versions>
   </app>
