@@ -88,8 +88,8 @@
     <req_capabilities>uart spi i2c pdm pse8xxgp</req_capabilities>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
-        <num>1.1.1 release</num>
-        <commit>release-v1.1.1</commit>
+        <num>2.0.0 release</num>
+        <commit>release-v2.0.0</commit>
       </version>
     </versions>
   </app>
