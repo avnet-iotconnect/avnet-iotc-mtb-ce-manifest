@@ -87,7 +87,7 @@
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/aavnet-iotc-mtb-psoc-edge-rm/blob/main/README.md">README on GitHub</a>.]]></description>
     <req_capabilities>uart spi i2c pdm pse8xxgp</req_capabilities>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>2.0.0 release</num>
         <commit>release-v2.0.0</commit>
       </version>
@@ -101,7 +101,7 @@
     <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Voice Assistant with Avnet /IOTCONNECT ModusToolbox SDK.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-voice-assistant/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>1.1.0 release</num>
         <commit>release-v1.1.0</commit>
       </version>
@@ -115,7 +115,7 @@
     <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Deploy Audio project with Avnet /IOTCONNECT ModusToolbox SDK.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-baby-monitor/blob/master/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
         <num>1.1.1 release</num>
         <commit>release-v1.1.1</commit>
       </version>
@@ -129,9 +129,9 @@
     <description><![CDATA[This demo project is the integration of Infineon's PSOC&#8482; Edge MCU DEEPCRAFT&#8482; Deploy Motion project with Avnet /IOTCONNECT ModusToolbox SDK.
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-motion/blob/main/README.md">README on GitHub</a>.]]></description>
     <versions>
-      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_eval_epc4, kit_pse84_ai]">
-        <num>1.1.0 release</num>
-        <commit>release-v1.1.0</commit>
+      <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2, kit_pse84_ai]">
+        <num>1.1.1 release</num>
+        <commit>release-v1.1.1</commit>
       </version>
     </versions>
   </app>
@@ -144,8 +144,8 @@
     <br><br>For more details, see the <a href="https://github.com/avnet-iotconnect/avnet-iotc-mtb-psoc-edge-psa-tfm/blob/main/README.md">README on GitHub</a>.]]></description>
     <versions>
       <version flow_version="2.0" tools_min_version="3.6.0" req_capabilities_per_version_v2="[bsp_gen6] [kit_pse84_eval_epc2]">
-        <num>1.2.0 release</num>
-        <commit>release-v1.2.0</commit>
+        <num>1.3.0 release</num>
+        <commit>release-v1.3.0</commit>
       </version>
     </versions>
   </app>
